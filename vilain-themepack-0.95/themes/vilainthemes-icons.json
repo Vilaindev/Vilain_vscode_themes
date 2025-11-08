@@ -1,0 +1,18 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "iconDefinitions": {
+    "_file": { "iconPath": "../media/icons/file.svg" },
+    "_folder": { "iconPath": "../media/icons/folder.svg" },
+    "_folder_open": { "iconPath": "../media/icons/folder-open.svg" }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_folder",
+  "rootFolderExpanded": "_folder_open",
+  "languageIds": {},
+  "fileExtensions": {},
+  "folderNames": {},
+  "light": {},
+  "highContrast": {}
+}

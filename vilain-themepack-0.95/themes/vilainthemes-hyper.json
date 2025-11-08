@@ -1,0 +1,54 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "VilainThemes Hyper",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000510",
+    "editor.foreground": "#f9faff",
+    "editorCursor.foreground": "#ff9eff",
+    "editor.selectionBackground": "#0f397f8c",
+    "editor.lineHighlightBackground": "#050b1f",
+    "sideBar.background": "#01030c",
+    "activityBar.background": "#010514",
+    "statusBar.background": "#010720",
+    "titleBar.activeBackground": "#00030a",
+    "panel.border": "#112249",
+    "button.background": "#ff4fd8",
+    "button.hoverBackground": "#ff6ee0",
+    "button.foreground": "#ffffff",
+    "focusBorder": "#33b8ff",
+    "editorIndentGuide.background": "#13224d",
+    "editorWhitespace.foreground": "#1f3668",
+    "editorBracketHighlight.foreground1": "#ff9eff",
+    "editorBracketHighlight.foreground2": "#33b8ff",
+    "editorBracketHighlight.foreground3": "#8dffbd",
+    "terminal.foreground": "#f7f9ff",
+    "terminal.background": "#00040f"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#3e4b77", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#a7a7a7" }
+    },
+    {
+      "scope": ["entity.name.type", "support.class"],
+      "settings": { "foreground": "#8dffbd" }
+    },
+    {
+      "scope": ["string", "constant.character"],
+      "settings": { "foreground": "#d1d1d1" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#ff9eff" }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": { "foreground": "#f7f9ff" }
+    }
+  ]
+}

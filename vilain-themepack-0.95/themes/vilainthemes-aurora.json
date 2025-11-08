@@ -1,0 +1,51 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "VilainThemes Aurora",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#030b19",
+    "editor.foreground": "#f0fbff",
+    "editorCursor.foreground": "#a4fffb",
+    "editor.selectionBackground": "#1a4f6f66",
+    "editor.lineHighlightBackground": "#08182c",
+    "sideBar.background": "#040e1c",
+    "activityBar.background": "#051326",
+    "statusBar.background": "#041426",
+    "titleBar.activeBackground": "#030a16",
+    "panel.border": "#123650",
+    "focusBorder": "#4de0ff",
+    "button.background": "#0cb0c6",
+    "button.hoverBackground": "#19c4de",
+    "button.foreground": "#041218",
+    "editorIndentGuide.background": "#103248",
+    "editorWhitespace.foreground": "#14384f",
+    "terminal.background": "#020912",
+    "terminal.foreground": "#d0f6ff"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#46708e", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#5ad9ff" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#cfc9e2" }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#878dbd" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#9bbeff" }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": { "foreground": "#f0fbff" }
+    }
+  ]
+}

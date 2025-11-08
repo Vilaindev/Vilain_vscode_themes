@@ -1,0 +1,51 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "VilainThemes Stealth",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#353541",
+    "editor.foreground": "#e5e9ff",
+    "editorCursor.foreground": "#adadad",
+    "editor.selectionBackground": "#1c2b4c8c",
+    "editor.lineHighlightBackground": "#0b0f1a",
+    "sideBar.background": "#19191b",
+    "activityBar.background": "#050615",
+    "statusBar.background": "#050519",
+    "titleBar.activeBackground": "#040410",
+    "panel.border": "#242e63",
+    "focusBorder": "#6f89ff",
+    "button.background": "#2f3d86",
+    "button.foreground": "#f4f6ff",
+    "button.hoverBackground": "#394ab3",
+    "editorIndentGuide.background": "#15192b",
+    "editorWhitespace.foreground": "#1f2542",
+    "terminal.background": "#222433",
+    "terminal.foreground": "#d7dcff"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#414760", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#8998ff" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#d1d1d3" }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#a3a19d" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#e6e6e7" }
+    },
+    {
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": { "foreground": "#e5e9ff" }
+    }
+  ]
+}

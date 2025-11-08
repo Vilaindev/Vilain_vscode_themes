@@ -1,0 +1,78 @@
+{
+  "name": "vilain-themepack",
+  "displayName": "VILAIN Themepack",
+  "description": "Pack de thèmes + page de bienvenue + switches",
+  "version": "2.1.0",
+  "icon": "media/avatar.png",
+  "publisher": "vilaindev",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:vilain.openWelcome",
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "vilain.openWelcome",
+        "title": "VILAIN: Ouvrir la page de bienvenue"
+      }
+    ],
+    "themes": [
+      {
+        "id": "vilainthemes-core",
+        "label": "VilainThemes Core",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vilainthemes-core.json"
+      },
+      {
+        "id": "vilainthemes-hyper",
+        "label": "VilainThemes Hyper",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vilainthemes-hyper.json"
+      },
+      {
+        "id": "vilainthemes-stealth",
+        "label": "VilainThemes Stealth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vilainthemes-stealth.json"
+      },
+      {
+        "id": "vilainthemes-aurora",
+        "label": "VilainThemes Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vilainthemes-aurora.json"
+      },
+      {
+        "id": "vilainthemes-pastel",
+        "label": "VilainThemes Pastel",
+        "uiTheme": "vs",
+        "path": "./themes/vilainthemes-pastel.json"
+      },
+      {
+        "id": "vilainthemes-light",
+        "label": "VilainThemes Light",
+        "uiTheme": "vs",
+        "path": "./themes/vilainthemes-light.json"
+      },
+      {
+        "id": "vilainthemes-light-lila",
+        "label": "VilainThemes Light Lila",
+        "uiTheme": "vs",
+        "path": "./themes/vilainthemes-light-lila.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "vilainthemes-icons",
+        "label": "VilainThemes Icons Violet",
+        "path": "./themes/vilainthemes-icons.json"
+      }
+    ]
+  }
+}
